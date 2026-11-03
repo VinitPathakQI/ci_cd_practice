@@ -21,4 +21,12 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]
+
+[tool.ruff.lint]
+extend-select = [
+    "I",   # import sorting
+    "B",   # likely bugs (flake8-bugbear)
+    "UP",  # outdated Python syntax
 ]
