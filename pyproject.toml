@@ -7,7 +7,9 @@ authors = [
     { name = "VinitPathakQI", email = "vinit.pathak@quantumintegrators.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "requests"
+]
 
 [project.scripts]
 ci-practice = "ci_practice:main"
