@@ -6,9 +6,6 @@ from ci_practice.calculator import add, divide, is_even
 def test_add():
     assert add(2, 3) == 5
 
-def test_is_even_broken():
-    assert is_even(7) is True
-
 
 def test_divide():
     assert divide(10, 2) == 5
